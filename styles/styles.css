@@ -265,7 +265,7 @@
     height: 100%;
     z-index: 1;
   }
-  body #about_view #clippath_about .container h1 {
+  body #about_view #clippath_about #about_title h1 {
     color: #309d43;
     font-family: 'Poppins', sans-serif;
     padding: 1rem;
@@ -276,6 +276,9 @@
   }
   body #about_view #clippath_about #about_content {
     color: white;
+  }
+  body #about_view #clippath_about #about_content h2 {
+    color: #9AE19D;
   }
 }
 /*# sourceMappingURL=styles.css.map */
