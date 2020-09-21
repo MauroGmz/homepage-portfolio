@@ -151,7 +151,7 @@ $warning-light-color: #F02D3A
                 width: 100%
                 height: 100%
             #clippath_triangle
-                clip-path: polygon(0 93%, 0 100%, 100% 100%)
+                clip-path: polygon(0 89%, 100% 95%, 100% 100%, 0% 100%)
                 background-color: $primary-variant-color
                 position: absolute
                 z-index: 2
@@ -190,12 +190,23 @@ $warning-light-color: #F02D3A
             background-color: $secondary-variant-color
             position: relative
             #clippath_about
-                clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%)
+                clip-path: polygon(0 0, 100% 0, 100% 83%, 0 96%)
                 background-color: $secondary-color
                 position: absolute
                 width: 100%
                 height: 100%
                 z-index: 1
+                .container
+                    h1
+                        color: $primary-color
+                        font-family: 'Poppins', sans-serif
+                        padding: 1rem
+                        margin-top: 3rem
+                        font-weight: 700
+                        letter-spacing: 7px
+                        font-size: 45px
+                #about_content
+                    color: white
                 
 
             
