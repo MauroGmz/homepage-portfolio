@@ -280,5 +280,14 @@
   body #about_view #clippath_about #about_content h2 {
     color: #9AE19D;
   }
+  body #background_fixed {
+    height: 100vh;
+    position: relative;
+    background-image: url("../img/electronic_circuit.jpg");
+  }
+  body #projects_section {
+    height: 100vh;
+    position: relative;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
