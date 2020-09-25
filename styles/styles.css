@@ -312,10 +312,23 @@
     font-size: 45px;
   }
   body #projects_section #projects_content .nav {
-    background-color: #474A48;
+    background-color: #060a0f;
   }
   body #projects_section #projects_content .nav .nav-link {
+    color: #9AE19D;
     border-radius: 0;
+  }
+  body #projects_section #projects_content .nav .nav-link:hover {
+    text-decoration: none;
+    color: #309d43;
+  }
+  body #projects_section #projects_content .nav .active {
+    background-color: #309d43;
+    color: #FBFBFF;
+  }
+  body #projects_section #projects_content .nav .active:hover {
+    text-decoration: none;
+    color: #FBFBFF;
   }
 }
 /*# sourceMappingURL=styles.css.map */
