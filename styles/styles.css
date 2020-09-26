@@ -6,6 +6,7 @@
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    position: relative;
   }
   body #home_view {
     height: 100vh;
@@ -329,6 +330,16 @@
   body #projects_section #projects_content .nav .active:hover {
     text-decoration: none;
     color: #FBFBFF;
+  }
+  body #projects_section #projects_content .tab-content {
+    background-color: #474A48;
+  }
+  body #projects_section #projects_content .tab-content #list-example {
+    height: 40vh;
+  }
+  body #contact_section {
+    height: 100vh;
+    background-color: #474A48;
   }
 }
 /*# sourceMappingURL=styles.css.map */
