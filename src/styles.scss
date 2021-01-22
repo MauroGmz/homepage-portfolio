@@ -1,0 +1,41 @@
+// Stylesheet sass -> css
+/////////////////////////////////////////////////
+// Variables
+/////////////////////////////////////////////////
+// Color Palettes
+$base: #060a0f;
+$sec: #494949;
+$outline: #ff6500;
+$text: transparentize($sec, .5);
+
+$primary-color: #309d43;
+$primary-variant-color: #9AE19D;
+$secondary-color: #2C302E;
+$secondary-variant-color: #474A48;
+$background-g-color: #d9dbda;
+$surface-color: #FBFBFF;
+$warning-color: #dd0426;
+$warning-light-color: #F02D3A;
+
+@media (max-width: 699px) {
+    html {
+        scroll-behavior: smooth; 
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+        position: relative;
+    }
+}
+
+@media (min-width: 700px) {
+    html {
+        scroll-behavior: smooth; 
+    }
+    body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+}
