@@ -8,10 +8,11 @@ import { Title } from '@angular/platform-browser';
 })
 export class ProjectsComponent implements OnInit {
 
-  constructor(private title: Title) { }
+  cards: any[] = [1,2,3,4,5,6,7,8,9,10];
+
+  constructor() { }
 
   ngOnInit() {
-    this.title.setTitle('My Projects - MauroGmz');
   }
 
 }

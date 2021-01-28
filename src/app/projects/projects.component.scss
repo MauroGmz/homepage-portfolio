@@ -2,8 +2,53 @@
 
 @media (min-width: 700px) {
 
-    #projects_view {
+    #projects_section {
         height: 100vh;
-    }
+        position: relative;
+        background-color: $secondary-color;
+        #projects_title {
+            h1 {
+                color: $primary-color;
+                font-family: 'Poppins', sans-serif;
+                padding: 1rem;
+                margin-top: 3rem;
+                font-weight: 700;
+                letter-spacing: 5px;
+                font-size: 45px;
+            }
+        }
+        #projects_content {
+            .nav {
+                background-color: $base;
+                .nav-link {
+                    color: $primary-variant-color;
+                    border-radius: 0;
+                    &:hover {
+                        text-decoration: none;
+                        color: $primary-color
+                    }
+                }
+                .active {
+                    background-color: $primary-color;
+                    color: $surface-color;
+                    &:hover {
+                        text-decoration: none; 
+                        color: $surface-color;
+                    }
+                }
 
+            }
+            .tab-content {
+                background-color: $secondary-variant-color;
+                max-height: 80vh;
+                overflow-y: scroll;
+                #list-example {
+                    height: 40vh;
+                }
+                .card {
+                    display: inline-flex;
+                }
+            }
+        }
+    }
 }
