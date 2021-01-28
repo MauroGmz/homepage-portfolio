@@ -94,7 +94,7 @@
             position: absolute;
             z-index: 3;
             padding: 25px;
-            margin-top: 35px;
+            margin-top: 15%;
             width: 50%;
             text-align: center;
             #epigraph {
@@ -171,19 +171,26 @@
             margin-left: 0;
             margin-right: 0;
             width: 50%;
+            padding: 35px;
             .w-100 {
                 width: 50% !important;           
                 #home_button {
                     position: absolute;
                     z-index: 4;
-                    margin-top: 65vh;
+                    //margin-top: 65vh;
                 }
             }
         }
         #home_button {
             position: absolute;
             z-index: 4;
-            margin-top: 70vh; 
+            margin-top: 20%;
+            padding: 70px;
+            a {
+                border-radius: 0;
+                padding: 17px;
+                font-size: 20px;
+            } 
         }                     
     }
     #about_view {
