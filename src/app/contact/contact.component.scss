@@ -1,0 +1,10 @@
+@import '../../styles.scss';
+
+@media (min-width: 700px) { 
+
+    #contact_section {
+        height: 100vh;
+        background-color: $secondary-variant-color;
+    }
+
+}

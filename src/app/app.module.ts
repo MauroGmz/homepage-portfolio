@@ -6,12 +6,16 @@ import { PrincipalComponent } from './principal/principal.component';
 import { ProjectsComponent } from './projects/projects.component';
 
 import {NgxPaginationModule} from 'ngx-pagination';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrincipalComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

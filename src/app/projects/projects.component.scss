@@ -2,21 +2,22 @@
 
 @media (min-width: 700px) {
   #projects_section {
-    height: 100vh;
     position: relative;
     background-color: $secondary-color;
     #projects_title {
+      height: 15vh;
       h1 {
         color: $primary-color;
         font-family: "Poppins", sans-serif;
         padding: 1rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
         font-weight: 700;
         letter-spacing: 5px;
         font-size: 45px;
       }
     }
     #projects_content {
+      height: 85vh;
       .nav {
         background-color: $base;
         .nav-link {
@@ -38,8 +39,6 @@
       }
       .tab-content {
         background-color: $secondary-variant-color;
-        max-height: 80vh;
-        min-height: 80vh;
         overflow-y: scroll;
         #list-example {
           height: 40vh;
@@ -47,10 +46,50 @@
         .card {
           display: inline-block;
         }
-        #first_pagination ::ng-deep .ngx-pagination .current {
-            background: green;
+        #first_pagination ::ng-deep .ngx-pagination {
+          margin-top: 1rem;
+          text-align: center;
+          margin-left: auto;
+          color: $primary-variant-color;
+          font-size: 22px;
+          font-family: 'Montserrat', sans-serif;
+          :hover {
+            text-decoration: none;
+            background: $background-g-color;
+            color: $primary-color;
+            border-radius: 5px;
+            
+          }
+          .disabled {
+            text-decoration: none;
+            color: $primary-color;
+          }
+          .current {
+            text-decoration: none;
+            background: $primary-color;
+            color: $surface-color;
+            border-radius: 5px;
+            
+            :hover {
+              background: $primary-color;
+              color: white;
+            }
+          }
         }
+        
       }
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 30px;
+        background: -webkit-gradient(linear, left top, left bottom, from( #f0af36), to( #c55d08));
+        box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+      }
+      ::-webkit-scrollbar-track {
+        background:linear-gradient(to right, #201c29, #201c29 1px, #100e17 1px ,#100e17);
+      }
+
     }
   }
 }

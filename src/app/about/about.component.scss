@@ -1,0 +1,54 @@
+@import '../../styles.scss';
+
+@media (min-width: 700px) {
+
+    #about_view {
+        height: 100vh;
+        background-color: $secondary-variant-color;
+        position: relative;
+        #clippath_about {
+            clip-path: polygon(0 0, 100% 0, 100% 83%, 0 96%);
+            background-color: $secondary-color;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            #about_title {
+                h1 {
+                    color: $primary-color;
+                    font-family: 'Poppins', sans-serif;
+                    padding: 1rem;
+                    margin-top: 3rem;
+                    font-weight: 700;
+                    letter-spacing: 5px;
+                    font-size: 45px;
+                }
+            }
+            #about_content {
+                color: white;
+                h2 {
+                    color: $primary-variant-color;
+                }
+            }
+        }
+    }
+
+    #background_fixed {
+        height: 100vh;
+        background-image: url("../../assets/img/imgbg.jpg");
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .bw-gradient {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+11,0+100 */
+            background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.65) 11%, rgba(0,0,0,0) 100%);
+            background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 11%,rgba(0,0,0,0) 100%);
+            background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.65) 11%,rgba(0,0,0,0) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+        }
+    }
+}
