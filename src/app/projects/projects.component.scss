@@ -2,21 +2,22 @@
 
 @media (min-width: 700px) {
   #projects_section {
-    height: 100vh;
     position: relative;
     background-color: $secondary-color;
     #projects_title {
+      height: 15vh;
       h1 {
         color: $primary-color;
         font-family: "Poppins", sans-serif;
         padding: 1rem;
-        margin-top: 3rem;
+        margin-top: 2rem;
         font-weight: 700;
         letter-spacing: 5px;
         font-size: 45px;
       }
     }
     #projects_content {
+      height: 85vh;
       .nav {
         background-color: $base;
         .nav-link {
@@ -38,8 +39,6 @@
       }
       .tab-content {
         background-color: $secondary-variant-color;
-        max-height: 80vh;
-        min-height: 80vh;
         overflow-y: scroll;
         #list-example {
           height: 40vh;
