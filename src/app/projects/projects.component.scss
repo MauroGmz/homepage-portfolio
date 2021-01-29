@@ -48,17 +48,33 @@
           display: inline-block;
         }
         #first_pagination ::ng-deep .ngx-pagination {
+          margin-top: 1rem;
+          text-align: center;
+          margin-left: auto;
           color: $primary-variant-color;
+          font-size: 22px;
+          font-family: 'Montserrat', sans-serif;
           :hover {
+            text-decoration: none;
             background: $background-g-color;
             color: $primary-color;
+            border-radius: 5px;
+            
           }
           .disabled {
+            text-decoration: none;
             color: $primary-color;
           }
           .current {
+            text-decoration: none;
             background: $primary-color;
             color: $surface-color;
+            border-radius: 5px;
+            
+            :hover {
+              background: $primary-color;
+              color: white;
+            }
           }
         }
         
