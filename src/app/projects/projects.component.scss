@@ -47,10 +47,34 @@
         .card {
           display: inline-block;
         }
-        #first_pagination ::ng-deep .ngx-pagination .current {
-            background: green;
+        #first_pagination ::ng-deep .ngx-pagination {
+          color: $primary-variant-color;
+          :hover {
+            background: $background-g-color;
+            color: $primary-color;
+          }
+          .disabled {
+            color: $primary-color;
+          }
+          .current {
+            background: $primary-color;
+            color: $surface-color;
+          }
         }
+        
       }
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-thumb {
+        border-radius: 30px;
+        background: -webkit-gradient(linear, left top, left bottom, from( #f0af36), to( #c55d08));
+        box-shadow: inset 2px 2px 2px rgba(255,255,255,0.25), inset -2px -2px -2px rgba(0,0,0,0.25);
+      }
+      ::-webkit-scrollbar-track {
+        background:linear-gradient(to right, #201c29, #201c29 1px, #100e17 1px ,#100e17);
+      }
+
     }
   }
 }
