@@ -9,6 +9,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 
+import { ParticlesModule } from 'angular-particle';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    ParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
