@@ -6,6 +6,7 @@
         height: 100vh;
         background-color: $secondary-variant-color;
         position: relative;
+        z-index: 1;
         #clippath_about {
             clip-path: polygon(0 0, 100% 0, 100% 83%, 0 96%);
             background-color: $secondary-color;

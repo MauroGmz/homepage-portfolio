@@ -96,7 +96,8 @@
     width: 100%;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    //background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background: linear-gradient(-45deg, #1D8348, #2ECC71, #FF5733, $primary-variant-color);
     background-size: 400% 400%;
     position: relative;
     animation: change 10s ease-in-out infinite;
