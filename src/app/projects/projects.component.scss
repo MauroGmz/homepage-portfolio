@@ -17,6 +17,9 @@
     }
     #projects_content {
       height: 85vh;
+      #left_column {
+        font-family: 'Montserrat', sans-serif;
+      }
       .nav {
         background-color: $base;
         .nav-link {
@@ -51,7 +54,7 @@
           margin-left: auto;
           color: $primary-variant-color;
           font-size: 22px;
-          font-family: 'Montserrat', sans-serif;
+          font-family: 'Raleway', sans-serif;
           :hover {
             text-decoration: none;
             background: $background-g-color;
