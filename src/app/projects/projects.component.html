@@ -23,7 +23,7 @@
                     <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                         aria-labelledby="v-pills-home-tab">
                         <pagination-controls *ngIf="cards.length>4" id="first_pagination" (pageChange)="p = $event"></pagination-controls>
-                        <div *ngFor="let card of cards | paginate: { itemsPerPage: 4, currentPage: p, id: 'first_pagination' }" class="card m-4" style="max-width: 540px;">
+                        <div *ngFor="let card of cards | paginate: { itemsPerPage: 6, currentPage: p, id: 'first_pagination' }" class="card m-4" style="max-width: 540px;">
                             <div class="row no-gutters">
                               <div class="col-md-4">
                                 <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" class="card-img" alt="...">
