@@ -17,6 +17,11 @@ $surface-color: #fbfbff;
 $warning-color: #dd0426;
 $warning-light-color: #f02d3a;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Open+Sans:wght@300&family=Poppins&family=Raleway&display=swap');
+@import "~aos/dist/aos.css";
+
 @media (max-width: 699px) {
   html {
     scroll-behavior: smooth;
